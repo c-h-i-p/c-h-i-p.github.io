@@ -1,0 +1,31 @@
+:root {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  --box-color: #999999;
+  --box-amount: 4;
+  --box-width: calc(100%/var(--box-amount));
+}
+
+.subnotes {
+  background-color: #b9b9b9;
+  border: 3px solid black;
+  line-height: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: var(--box-color);
+  width: var(--box-width);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 15px
+}
